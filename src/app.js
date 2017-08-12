@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
 import firebase from 'firebase';
+import { View } from 'react-native';
 import { Header } from './components/common';
 import LoginForm from './components/LoginForm';
 
@@ -16,6 +16,7 @@ class App extends Component {
       messagingSenderId: '99633716347'
     });
   }
+
   render() {
     return (
         <View>
